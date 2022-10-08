@@ -90,6 +90,7 @@ section {
 
     </style>
 </head>
+<title>URL Shortener</title>
 <main>
   <h1 class="text">URL Shortener</h1>
   <form id="post-form">
@@ -116,7 +117,7 @@ section {
         csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
       },
       success: function(data){
-        $('h2').html("localhost:8000/"+data)
+        $('h2').html("dnm/"+data)
       }
     });
   });
