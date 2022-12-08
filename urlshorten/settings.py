@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-hvtx+q2ydwjw*jg6s1=@^ih3ql3n%!0jx*4acc*zgjz^17#kby
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://urlshorten.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://urlshort.up.railway.app']
 
 
 # Application definition
